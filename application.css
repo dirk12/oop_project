@@ -1,0 +1,42 @@
+.root {
+	-fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, rgb(26,77,77) 0.0, rgb(0,0,0) 100.0 );
+	-fx-base:  rgb(64,128,128);
+    -fx-accent: rgb(0,64,0);
+    -fx-default-button: #abedd8;
+    -fx-focus-color: #03d39e;
+    -fx-faint-focus-color: #03d39e22;
+}
+
+.button {
+	-fx-font-size: 14px;
+	-fx-background-insets: 0 0 -1 0,0,1;
+	-fx-background-radius: 5,5,4;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: #242d35;
+    -fx-background-color: 
+        rgba(0,0,0,0.08),
+        linear-gradient(#9a9a9a, #909090),
+        linear-gradient(white 0%, #f3f3f3 50%, #ececec 51%, #f2f2f2 100%);
+    -fx-background-color: derive(-fx-base, 60%), -fx-background ; 
+    -fx-background-insets: 0, 1px ;
+    -fx-background-radius: 4px, 0 ;
+}
+
+ .button:hover {
+    -fx-background-color: #fff, derive(-fx-background, -5%) ;
+} 
+
+
+.label{
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #ffffff;
+}
+
+.textfield{
+	-fx-font-size: 14px;
+	-fx-background-insets: 0 0 -1 0,0,1;
+	-fx-background-radius: 5,5,4;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: #242d35;
+}
